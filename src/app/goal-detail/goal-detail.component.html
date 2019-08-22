@@ -1,0 +1,45 @@
+<!-- <p>goal-detail works!</p> 
+ <div>
+    <h1>My Goals</h1>
+    <hr>
+    <ul>
+      <li *ngFor='let goal of goals'>
+        {{goal.name}}
+        <app-goal-detail [goal]='goal'></app-goal-detail>
+      </li>
+    </ul>
+  </div>
+ 
+ 
+ 
+ <div>
+
+    <h1>My Goals</h1>
+    <hr>
+    <ul>
+      <li *ngFor='let goal of goals'>
+        {{goal.name}}
+        <app-goal-detail [goal]='goal'></app-goal-detail>
+      </li>
+    </ul> -->
+    <!-- <p>{{goal.description}}</p>
+<button (click)= 'goalComplete(true)'>Complete</button>
+     -->
+<!-- for create piper -->
+
+<!-- 
+<p>{{goal.description}}</p>
+<p>This goal will be complete in {{goal.completeDate|dateCount}} days</p> -->
+<!-- for deleting goal -->
+<!-- <p>{{goal.description}}</p>
+<p>This goal will be complete in {{goal.completeDate|dateCount}} days</p>
+<button (click)= 'goalDelete(true)'>Delete Goal</button>
+<app-goal-detail *ngIf='goal.showDescription' [goal]='goal' (isComplete) = 'deleteGoal($event,i)'></app-goal-detail>
+<p>{{goal.description}}</p>
+<p>This goal will be complete in {{goal.completeDate|dateCount}} days</p>
+<button (click)= 'goalDelete(true)'>Delete Goal</button> --> -->
+
+
+<p>{{goal.description}}</p>
+<p>This goal will be complete in {{goal.completeDate|dateCount}} days</p>
+<button (click)= 'goalDelete(true)' class="btn btn-outline-danger">Delete Goal</button>
